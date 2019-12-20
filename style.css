@@ -1,0 +1,70 @@
+body {
+	background:lightblue;
+	margin: 0;
+	font-family: 'Open Sans',sans-serif;
+	-webkit-animation:color 2s ease-in 0s infinite alternate running;
+	-moz-animation:color 2s linear 0s infinite alternate running;
+	animation: color 2s linear 0s infinite alternate running;
+	font-size: 14px;
+
+}
+@-webkit-keyframes color{
+0% {background-color: #E25A53; }
+32% {background-color: #FDB35D;}
+55% {background-color: #FBF5E8;}
+76% {background-color: #A4D9D6;}
+100% {background-color: #BAC373;}
+}
+@-moz-keyframes color{
+	0% {background-color: #E25A53; }
+32% {background-color: #FDB35D;}
+55% {background-color: #FBF5E8;}
+76% {background-color: #A4D9D6;}
+100% {background-color: #BAC373;}
+}
+}
+@keyframes color {
+0% {background-color: #E25A53; }
+32% {background-color: #FDB35D;}
+55% {background-color: #FBF5E8;}
+76% {background-color: #A4D9D6;}
+100% {background-color: #BAC373;}
+}
+}
+
+
+
+.slider h3,
+.slider h5,
+.program h3{
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+.parallax-container{
+height: 240px;
+}
+.parallax img{
+	filter: grayscale();
+	opacity: 0.5!important;
+}
+
+section, footer{
+	padding: 20px 0!important;
+}
+.card{
+	float: center;
+}
+.page-footer{
+	background-color: #2D2D44;
+}
+.card-panel1{
+	background-color: #33E1ED;
+}
+.chip{
+	size: 20px;
+}
+.Tutorial{
+	text-shadow:  1px 1px 3px rgba(0,0,0,0.5);
+	text-align: center;
+}
+
+

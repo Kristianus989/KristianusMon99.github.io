@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet"  href="css/style.css">
+	<!-- fungsi data : mengatakan keterangan sebuah data(informasi). -->
+	<meta name="description" content="Ini adalah website Pribadi"></meta>
+	<meta name="keywords" content="Selamat, Datang, website"></meta>
+	<meta name="author" content="Kristianus Mon"></meta>
+	<meta http-equiv="refresh" content="120"></meta>
+	<link rel="shortcut icon" href="img/gambar.png"></link> <!--Dimensi 32px x 32px-->
+	<title>KOLEKSI</title>
+</head>
+ <body id="home" class="scrollspy" bgcolor="lightblue">
+    <div class="navbar navbar-lightblue navbar-fixed">
+    <nav class="deep-purple darken-4 ">
+      <div class="container">
+      <div class="navbar nav-lightblue">
+        <a href="#home" class="brand-logo"> <img src="img/gambar1.png"></a>
+         <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Photography.html">PhotoGraphy</a></li>
+          <li><a href="#contact">Contact </a></li>
+          <li><a href="#Tutorial">Tutorial</a></li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+  </div>
+    <ul class="sidenav" id="mobile-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Photography.html">PhotoGraphy</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Tutorial">Tutorial</a></li>
+        
+    </ul>
+    <br>
+     
+ 
+     <a name="#services">
+      <section id="services" class="services grey lighten-3 scrollspy">
+      <div class="container">
+        <div class="row">
+          <h3 class="light center grey-text text-darken-3">KOLEKSI</h3>
+ 
+      <div class="row">
+        <div class="col m3 s12">
+          <img src="img/koleksi/K4.JPG" class="responsive-img materialboxed">
+        </div>
+        <div class="col m3 s12">
+          <img src="img/koleksi/K3.JPG" class="responsive-img materialboxed">
+        </div>
+        <div class="col m3 s12">
+          <img src="img/koleksi/K2.JPG" class="responsive-img materialboxed">
+        </div>
+        <div class="col m3 s12">
+          <img src="img/koleksi/K1.JPG" class="responsive-img materialboxed">
+        </div>
+        <div class="col m3 s12">
+        </div>
+      </div>
+        <div class="row">
+        <div class="col m3 s12">
+          <img src="img/portfolio/contoh1.JPG" class="responsive-img materialboxed">
+        </div>
+         <div class="col m3 s12">
+
+          <img src="img/portfolio/contoh2.JPG" class="responsive-img materialboxed">
+        </div>
+         <div class="col m3 s12">
+          <img src="img/portfolio/contoh3.JPG" class="responsive-img materialboxed">
+        </div>
+         <div class="col m3 s12">
+          <img src="img/portfolio/contoh4.JPG" class="responsive-img materialboxed">
+        </div>
+      </div>
+       <div class="row">
+        <div class="col m3 s12">
+          <img src="img/portfolio/contoh5.JPG" class="responsive-img materialboxed">
+        </div>
+         <div class="col m3 s12">
+          <img src="img/portfolio/contoh6.JPG" class="responsive-img materialboxed">
+        </div>
+         <div class="col m3 s12">
+          <img src="img/portfolio/contoh7.JPG" class="responsive-img materialboxed">
+        </div>
+         <div class="col m3 s12">
+          <img src="img/portfolio/contoh8.JPG" class="responsive-img materialboxed">
+        </div>
+      
+        </div>
+      </div>
+    </section>
+</a>
+    <br>
+
+ 
+    <h3>WELCOME</h3>
+
+
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script>
+        
+
+
+        const parallax = document.querySelectorAll('.parallax');
+        M.Parallax.init(parallax);
+
+        const materialbox = document.querySelectorAll('.materialboxed');
+        M.Materialbox.init(materialbox);
+
+        const scroll = document.querySelectorAll('.scrollspy');
+        M.ScrollSpy.init(scroll,{
+          scrolloffset: 50
+        });
+      </script>
+</body>
+</html>
